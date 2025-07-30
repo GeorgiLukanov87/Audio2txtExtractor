@@ -70,11 +70,11 @@ sudo apt install ffmpeg
 ### Структура на папките
 ```
 project/
-├── transcribe_audio.py     # Основен скрипт
-├── requirements.txt        # Python зависимости
-├── audio_segments/         # Входни аудио файлове (по подразбиране)
-└── transcripts/           # Изходни файлове
-    ├── generated_segments/ # Временни сегменти (при нужда)
+├── transcribe_audio.py         # Основен скрипт
+├── requirements.txt            # Python зависимости
+├── audio_segments/             # Входни аудио файлове (по подразбиране)
+└── transcripts/                # Изходни файлове
+    ├── generated_segments/     # Временни сегменти (при нужда)
     ├── *_transcripts_*.json
     ├── *_segments_text_*.txt
     └── *_full_text_*.txt
